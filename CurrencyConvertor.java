@@ -14,7 +14,7 @@ public class CurrencyConvertor {
     static void convert(String to, String from, double amt) {
         String convertTo = to.toLowerCase();
         String convertFrom = from.toLowerCase();
-        String apiKey = "WJLIEC5WymEJR4ZX4xQXT2WF2FE5mPy2";
+        String apiKey = "key";
         String REQUEST_URL =  "https://api.apilayer.com/exchangerates_data/convert?to=" + convertTo +
                 "&from=" +convertFrom + "&amount=" + amt;
 
